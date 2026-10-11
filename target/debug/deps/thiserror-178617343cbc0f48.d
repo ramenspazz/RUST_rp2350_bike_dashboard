@@ -1,0 +1,14 @@
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/deps/thiserror-178617343cbc0f48.d: /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/build/thiserror-6c001f6304551d73/out/private.rs
+
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/deps/libthiserror-178617343cbc0f48.rlib: /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/build/thiserror-6c001f6304551d73/out/private.rs
+
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/deps/libthiserror-178617343cbc0f48.rmeta: /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/build/thiserror-6c001f6304551d73/out/private.rs
+
+/home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs:
+/home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs:
+/home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs:
+/home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs:
+/home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs:
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/build/thiserror-6c001f6304551d73/out/private.rs:
+
+# env-dep:OUT_DIR=/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/debug/build/thiserror-6c001f6304551d73/out

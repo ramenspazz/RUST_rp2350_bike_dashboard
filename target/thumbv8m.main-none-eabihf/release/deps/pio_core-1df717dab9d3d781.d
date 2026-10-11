@@ -1,0 +1,5 @@
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/deps/pio_core-1df717dab9d3d781.d: /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pio-core-0.3.0/src/lib.rs
+
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/deps/libpio_core-1df717dab9d3d781.rmeta: /home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pio-core-0.3.0/src/lib.rs
+
+/home/ramenspazz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pio-core-0.3.0/src/lib.rs:

@@ -1,0 +1,10 @@
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/deps/rp_hal_common-ba4209b53f7e8e18.d: /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/lib.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/mod.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/common_configs.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/utils.rs
+
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/deps/librp_hal_common-ba4209b53f7e8e18.rlib: /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/lib.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/mod.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/common_configs.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/utils.rs
+
+/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/deps/librp_hal_common-ba4209b53f7e8e18.rmeta: /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/lib.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/mod.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/common_configs.rs /home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/utils.rs
+
+/home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/lib.rs:
+/home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/mod.rs:
+/home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/common_configs.rs:
+/home/ramenspazz/.cargo/git/checkouts/rp-hal-be92261dbb1cad5a/2df7870/rp-hal-common/src/uart/utils.rs:

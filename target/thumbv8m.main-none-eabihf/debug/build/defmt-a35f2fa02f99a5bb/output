@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/debug/build/defmt-a35f2fa02f99a5bb/out
+cargo:rustc-check-cfg=cfg(c_variadic)
+cargo:rustc-check-cfg=cfg(no_cas)

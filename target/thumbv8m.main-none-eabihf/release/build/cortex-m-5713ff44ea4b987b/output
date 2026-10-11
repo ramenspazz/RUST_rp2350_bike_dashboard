@@ -1,0 +1,6 @@
+cargo:rustc-link-lib=static=cortex-m
+cargo:rustc-link-search=/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/build/cortex-m-5713ff44ea4b987b/out
+cargo:rustc-cfg=cortex_m
+cargo:rustc-cfg=armv8m
+cargo:rustc-cfg=armv8m_main
+cargo:rustc-cfg=has_fpu

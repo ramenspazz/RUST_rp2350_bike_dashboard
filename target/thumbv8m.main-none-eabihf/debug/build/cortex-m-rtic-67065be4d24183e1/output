@@ -1,0 +1,2 @@
+cargo:rustc-cfg=have_basepri
+cargo:rerun-if-changed=build.rs

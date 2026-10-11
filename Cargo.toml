@@ -33,11 +33,21 @@ mipidsi = "0.10.0"
 nb = "1.0"
 panic-halt = "0.2.0"
 pio = "0.3.0"
-rp235x-hal = {version = "0.4.0", features = ["binary-info", "critical-section-impl", "rt", "defmt"]}
 usb-device = { version = "0.3.2", features = ["control-buffer-256"] }
 usbd-serial = "0.2.2"
 static_cell = "2.1.0"
 libm = "0.2.16"
+
+[dependencies.rp235x-hal]
+git = "https://github.com/rp-rs/rp-hal.git"
+rev = "2df78708a07825654994662d98777dcab22c051a"
+features = [
+    "binary-info",
+    "critical-section-impl",
+    "rt",
+    "defmt",
+    "qfn80",
+]
 
 [target.'cfg( target_arch = "arm" )'.dependencies]
 embassy-executor = {version = "0.5", features = ["arch-cortex-m", "executor-thread"]}
