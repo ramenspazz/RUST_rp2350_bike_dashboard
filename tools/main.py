@@ -1,3 +1,5 @@
+# this file was used to collect data from the cdi unit on my motorcycle to measure ignition trigger pulses
+# using only a voltage divider. Make sure to shield the ADC from negative voltage!
 from machine import ADC
 from array import array
 import time
