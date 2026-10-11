@@ -1,2 +1,0 @@
-cargo:rustc-link-search=/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/release/build/rp-2350-i2s-output-842ab7b40c953c2d/out
-cargo:rerun-if-changed=memory.x

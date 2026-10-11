@@ -1,6 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:rerun-if-env-changed=EMBASSY_EXECUTOR_TASK_ARENA_SIZE
-cargo:rustc-cfg=cortex_m
-cargo:rustc-cfg=armv8m
-cargo:rustc-cfg=armv8m_main
-cargo:rustc-cfg=has_fpu

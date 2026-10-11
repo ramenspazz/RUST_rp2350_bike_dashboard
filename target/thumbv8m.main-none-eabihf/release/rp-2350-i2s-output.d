@@ -1,1 +1,0 @@
-/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/rp-2350-i2s-output: /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/build.rs /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/memory.x /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/src/dash_lib.rs /home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/src/main.rs

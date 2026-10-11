@@ -1,6 +1,0 @@
-$ mkdir -p "/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/build/az-c2f0ec0467c48a80/out/try_track_caller"
-$ cd "/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/build/az-c2f0ec0467c48a80/out/try_track_caller"
-$ printf '%s' "// try_tra"... > "/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/build/az-c2f0ec0467c48a80/out/try_track_caller/try_track_caller.rs"
-$ cd "/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/build/az-c2f0ec0467c48a80/out/try_track_caller" && "/home/ramenspazz/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
-cargo:rustc-cfg=track_caller
-$ rm -r "/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/thumbv8m.main-none-eabihf/release/build/az-c2f0ec0467c48a80/out/try_track_caller"

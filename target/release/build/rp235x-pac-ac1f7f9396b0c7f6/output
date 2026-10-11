@@ -1,3 +1,0 @@
-cargo:rustc-link-search=/home/ramenspazz/Programs/RUST_rp2350_bike_dashboard/target/release/build/rp235x-pac-ac1f7f9396b0c7f6/out
-cargo:rerun-if-changed=device.x
-cargo:rerun-if-changed=build.rs
