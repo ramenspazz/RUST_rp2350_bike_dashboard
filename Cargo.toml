@@ -15,10 +15,10 @@ critical-section = "1.2.0"
 defmt = "1.2.0"
 defmt-rtt = "1.3.1"
 
-# Preserve this deliberate Git pin until its use in the application is reviewed.
+# Preserve this deliberate Git pin until its use in the application is reviewed for update.
 dht-sensor = { version = "0.2.1", git = "https://github.com/michaelbeaumont/dht-sensor", rev = "10319bdeae9ace3bb0fc79a15da2869c5bf50f52" }
 
-# Retain these API lines; newer breaking releases need a source review.
+# Retain these API lines; newer breaking releases need a source review for update.
 embedded-alloc = "0.5.1"
 heapless = "0.8.0"
 
@@ -54,7 +54,7 @@ features = [
     "qfn80",
 ]
 
-# Patch update only. Embassy 0.10 requires a separate API/feature migration.
+# Patch update only. Embassy 0.10 requires a separate API/feature migration. Want to eventually update
 [target.'cfg(target_arch = "arm")'.dependencies]
 embassy-executor = { version = "0.5.1", features = ["arch-cortex-m", "executor-thread"] }
 
