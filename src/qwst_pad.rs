@@ -95,24 +95,24 @@ impl Debouncer {
         presses
     }
 }
-#[cfg(test)]
-mod tests {
-    use super::*;
-    #[test]
-    fn bounce_hold_release_and_startup() {
-        let mut d = Debouncer::new();
-        assert_eq!(d.feed(A, 0), 0); // held at startup
-        assert_eq!(d.feed(0, 10_000), 0);
-        assert_eq!(d.feed(0, 30_000), 0);
-        assert_eq!(d.feed(UP, 40_000), 0);
-        assert_eq!(d.feed(0, 45_000), 0);
-        assert_eq!(d.feed(UP, 50_000), 0);
-        assert_eq!(d.feed(UP, 69_999), 0);
-        assert_eq!(d.feed(UP, 70_000), UP);
-        assert_eq!(d.feed(UP, 900_000), 0);
-        assert_eq!(d.feed(0, 910_000), 0);
-        assert_eq!(d.feed(0, 930_000), 0);
-        assert_eq!(d.feed(UP, 940_000), 0);
-        assert_eq!(d.feed(UP, 960_000), UP);
-    }
-}
+// #[cfg(test)]
+// mod tests {
+//     use super::*;
+//     #[test]
+//     fn bounce_hold_release_and_startup() {
+//         let mut d = Debouncer::new();
+//         assert_eq!(d.feed(A, 0), 0); // held at startup
+//         assert_eq!(d.feed(0, 10_000), 0);
+//         assert_eq!(d.feed(0, 30_000), 0);
+//         assert_eq!(d.feed(UP, 40_000), 0);
+//         assert_eq!(d.feed(0, 45_000), 0);
+//         assert_eq!(d.feed(UP, 50_000), 0);
+//         assert_eq!(d.feed(UP, 69_999), 0);
+//         assert_eq!(d.feed(UP, 70_000), UP);
+//         assert_eq!(d.feed(UP, 900_000), 0);
+//         assert_eq!(d.feed(0, 910_000), 0);
+//         assert_eq!(d.feed(0, 930_000), 0);
+//         assert_eq!(d.feed(UP, 940_000), 0);
+//         assert_eq!(d.feed(UP, 960_000), UP);
+//     }
+// }

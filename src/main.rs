@@ -60,7 +60,7 @@ const USB_POST_DIVIDER_1: u8 = 6;
 const USB_POST_DIVIDER_2: u8 = 5;
 const USB_VCO_FREQ: u32 = 1440;
 const DISPLAY_INTERVAL_US: u64 = 25_000;
-const DEMO_RPM: f64 = 4500.0;
+// const DEMO_RPM: f64 = 4500.0;
 const IGNITION_EVENTS_PER_REV: f64 = 1.0;
 
 const BUFFER_SAMPLES: usize = 8192;
@@ -73,9 +73,9 @@ const MIN_GAP_SAMPLES: u64 = SAMPLE_RATE_HZ / 1_000;
 // Example stopped-engine timeout: 0.5 seconds.
 const RPM_TIMEOUT_SAMPLES: u64 = SAMPLE_RATE_HZ / 2;
 
-const PATCH_WIDTH: usize = 32;
-const PATCH_HEIGHT: usize = 32;
-const PATCH_BYTES: usize = PATCH_WIDTH * PATCH_HEIGHT * 2;
+// const PATCH_WIDTH: usize = 32;
+// const PATCH_HEIGHT: usize = 32;
+// const PATCH_BYTES: usize = PATCH_WIDTH * PATCH_HEIGHT * 2;
 
 // SPI helper functions
 use core::convert::Infallible;
@@ -83,7 +83,7 @@ use embedded_hal::{
     spi::SpiBus,
 };
 
-fn lcd_command<SPI, DC>(
+fn _lcd_command<SPI, DC>(
     spi: &mut SPI,
     dc: &mut DC,
     command: u8,

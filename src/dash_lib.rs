@@ -200,7 +200,7 @@ pub(crate) fn wheel_snapshot() -> PulseState {
     })
 }
 
-pub(crate) fn draw_static<D: DrawTarget<Color = Rgb565>>(display: &mut D) -> Result<(), D::Error> {
+pub(crate) fn _draw_static<D: DrawTarget<Color = Rgb565>>(display: &mut D) -> Result<(), D::Error> {
     let text_style_small = MonoTextStyle::new(&FONT_6X10, Rgb565::WHITE);
     let top_left_point = Point::new(X_CENTER - RADIUS as i32, Y_CENTER - RADIUS as i32);
     Circle::new(top_left_point, 2 * RADIUS)
@@ -493,12 +493,12 @@ impl TileBuffer {
             bytes: [0; TILE_BYTES],
         }
     }
-    pub(crate) fn rect(&self) -> TileRect {
-        self.rect
-    }
-    pub(crate) fn pixels(&self) -> &[u8] {
-        &self.bytes[..self.rect.byte_len()]
-    }
+    // pub(crate) fn rect(&self) -> TileRect {
+    //     self.rect
+    // }
+    // pub(crate) fn pixels(&self) -> &[u8] {
+    //     &self.bytes[..self.rect.byte_len()]
+    // }
     fn prepare(&mut self, rect: TileRect) {
         self.rect = rect;
         self.bytes[..rect.byte_len()].fill(0); // Final tile starts with black background.
@@ -692,7 +692,7 @@ impl Dashboard {
     /// Blocking full-screen redraw through any RGB565 DrawTarget.
     /// Only call while LCD DMA is stopped and you own the target/interface.
     /// This does not change the dirty queue; queued tiles may be resent afterward.
-    pub(crate) fn draw_full<D: DrawTarget<Color = Rgb565>>(
+    pub(crate) fn _draw_full<D: DrawTarget<Color = Rgb565>>(
         &self,
         target: &mut D,
     ) -> Result<(), D::Error> {
@@ -788,7 +788,7 @@ impl Dashboard {
     }
     /// Requeue a reserved tile if transmission was cancelled/failed.
     /// Recover/stop the DMA hardware separately before reusing its memory.
-    pub(crate) fn retry_tile(&mut self) {
+    pub(crate) fn _retry_tile(&mut self) {
         if let Some(index) = self.in_flight.take() {
             self.dirty[index] = true;
         }
@@ -814,6 +814,7 @@ impl Dashboard {
         if let Some(hundredths) = self.speed_hundredths {
             let mut bytes = [0u8; 32];
             let mut text = BufWriter::new(&mut bytes);
+            // Fit at most nine glyphs in the available screen area.
             if hundredths <= 99_999_999 {
                 write!(text, "{}.{:02}", hundredths / 100, hundredths % 100).unwrap();
             } else {
