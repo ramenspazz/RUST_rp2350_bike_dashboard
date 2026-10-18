@@ -12,4 +12,10 @@
     "python.analysis.extraPaths": [
         "~/.micropico-stubs/included"
     ]
+    {
+    "rust-analyzer.cargo.target": "thumbv8m.main-none-eabihf",
+    "rust-analyzer.cargo.allTargets": false,
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.cfg.setTest": false
+    }
 }
