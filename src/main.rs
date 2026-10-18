@@ -26,7 +26,6 @@ use panic_halt as _;
 mod dash_lib;
 mod qwst_pad;
 
-
 /// Tell the Boot ROM about our application
 #[link_section = ".start_block"]
 #[used]
