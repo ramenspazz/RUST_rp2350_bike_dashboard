@@ -11,11 +11,12 @@
     ],
     "python.analysis.extraPaths": [
         "~/.micropico-stubs/included"
-    ]
-    {
+    ],
+    "js/ts.validate.enabled": true,
+    "eslint.enable": true,
+    "eslint.run": "onSave",
     "rust-analyzer.cargo.target": "thumbv8m.main-none-eabihf",
     "rust-analyzer.cargo.allTargets": false,
     "rust-analyzer.check.allTargets": false,
-    "rust-analyzer.cfg.setTest": false
-    }
+    "rust-analyzer.cfg.setTest": false,
 }
